@@ -1,0 +1,35 @@
+.contact-list-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-list-content {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.8rem;
+  table {
+    border-collapse: collapse;
+  }
+  thead {
+    color: grey;
+    font-weight: 500;
+  }
+  tr {
+    border-bottom: 1px solid rgba(177, 177, 177, 0.171);
+  }
+  tbody {
+    tr {
+      cursor: pointer;
+      &:hover {
+        background-color: rgba(128, 128, 128, 0.096);
+      }
+    }
+  }
+  td {
+    padding: 10px 5px;
+  }
+}

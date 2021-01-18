@@ -1,0 +1,85 @@
+// @import "./cmps/about-us.css"; //
+
+.contact-details-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+
+}
+
+.contact-details-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  .contact-links {
+    display: flex;
+    width: 100%;
+  }
+  .back-link {
+    display: flex;
+    margin-left: 300px;
+    width: 100%;
+    @media (max-width: 576px) {
+        margin-left: 0;
+    }
+  }
+  .content-top-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(128, 128, 128, 0.089);
+  }
+  .contact-top-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+    .contact-name {
+      font-size: 1.2rem;
+    }
+    .phone {
+      color: grey;
+    }
+    .avatar {
+      border: 5px solid rgba(128, 128, 128, 0.103);
+      border-radius: 50%;
+    }
+  }
+}
+
+.contact-bottom {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  .bottom-title {
+    color: grey;
+    margin-bottom: 20px;
+  }
+}
+
+.details-item {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  .title {
+    color: grey;
+  }
+  .details-icon {
+    font-size: 2rem;
+    margin-right: 10px;
+  }
+  .details-txt {
+    width: 20ch;
+  }
+}
